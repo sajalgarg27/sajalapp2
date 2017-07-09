@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Serve An NGO</string>
+    <string name="title_activity_tab_activity">Tab_activity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="drawer_open">drawer open</string>
+    <string name="drawer_close">drawer close</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

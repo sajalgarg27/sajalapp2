@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#009688"
+    android:orientation="vertical"
+    android:paddingLeft="40dp"
+    android:paddingRight="40dp"
+    tools:context="com.example.sajal.onlinedb_prk.Addinfo">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="50dp"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            >
+
+            <EditText
+                android:layout_width="275dp"
+                android:layout_height="wrap_content"
+                android:hint="Full Name"
+                android:id="@+id/et_name"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="40dp" />
+
+            <EditText
+                android:layout_width="275dp"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:id="@+id/et_email"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="40dp"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:layout_width="275dp"
+                android:layout_height="wrap_content"
+                android:hint="Contact"
+                android:id="@+id/et_mob"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="40dp"
+                android:inputType="phone" />
+
+            <EditText
+                android:layout_width="275dp"
+                android:layout_height="wrap_content"
+                android:hint="City"
+                android:inputType="text"
+                android:id="@+id/et_city"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="40dp" />
+
+    <EditText
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:id="@+id/et_pwd"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+
+        />
+    <Button
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:text="REGISTER"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:background="#E0F2F1"
+        android:textColor="#009688"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:onClick="saveInfo"
+        />
+</LinearLayout>
+    </ScrollView>
+</LinearLayout>

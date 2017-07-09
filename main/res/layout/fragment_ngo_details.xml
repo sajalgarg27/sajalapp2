@@ -1,0 +1,48 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragment_ngod"
+    tools:context="com.example.sajal.onlinedb_prk.Ngo_details">
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary">
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/ngo_image"
+        android:layout_gravity="center"
+        android:src="@drawable/sample_5"/>
+    <TextView
+        android:id="@+id/ngo_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:padding="10dp"
+        android:text="Sajal Garg"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sajalgarg26@gmail.com"
+        android:padding="10dp"
+        android:textColor="#000000"
+        android:id="@+id/ngo_email"
+        android:layout_below="@+id/ngo_name"
+        android:layout_marginLeft="150dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ngo_contact"
+        android:text="9716686404"
+        android:padding="10dp"
+        android:textColor="#000000"
+        android:layout_below="@+id/ngo_email"
+
+        android:layout_marginLeft="150dp" />
+</LinearLayout>
+</FrameLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="#009688"
+    tools:context="com.example.sajal.onlinedb_prk.MainActivity">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/serveanngologo" />
+    <EditText
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+
+        android:id="@+id/login_email"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:inputType="textEmailAddress"
+        />
+
+    <EditText
+        android:id="@+id/login_pwd"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="95dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="REGISTER"
+            android:id="@+id/b1"
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:background="#E0F2F1"
+            android:textColor="#009688"
+            android:layout_marginRight="20dp"
+            android:onClick="addcontact"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LOGIN"
+            android:id="@+id/b2"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:background="#E0F2F1"
+            android:textColor="#009688"
+            android:onClick="viewcontact"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No Network Found"
+        android:id="@+id/textview"
+        android:layout_marginTop="30dp"
+         />
+
+
+
+
+</LinearLayout>
